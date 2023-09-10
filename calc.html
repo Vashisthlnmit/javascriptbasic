@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .heading{
+        text-align: center;
+    }
+    .outer{
+        height: 28rem;
+        width: 28rem;
+        border: 0.5rem solid ;
+        margin: 0px auto 0px auto;
+        background-color: black;
+    }
+    .main{
+        height: 4rem;
+        width: 27rem;
+        border: 0.3rem solid #e7e5e5;
+        margin: 1rem 0.1rem;
+        background-color: #e7e5e5;
+        border-radius: 0.5rem;
+
+    }
+    .numb{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+    }
+    .edit{
+        width: 6rem;
+        height: 4rem;
+        margin: 11px 5px;
+        border-radius: 10px;
+        border: 12rem thick tomato;
+        
+    }
+    #button-13{
+        background-color: red;
+        
+    }
+    .arth{
+        background-color: yellow;
+        border: 12rem thin palevioletred;
+    }
+    .reedi{
+        margin-left: 2px;
+    }
+    
+</style>
+<body>
+    <h1 class="heading">CALCULATOR USING HTML AND CSS</h1>
+    <div class="outer">
+        <div class="main">
+            <h1 id="result" class="reedi">0</h1>
+        </div>
+        <div class="numb">
+            <button class="edit" id="button-1">7</button>
+            <button class="edit" id="button-2">8</button>
+            <button class="edit" id="button-3">9</button>
+            <button class="edit arth" id="button-4">+</button>
+            <button class="edit" id="button-5">4</button>
+            <button class="edit" id="button-6">5</button>
+            <button class="edit" id="button-7">6</button>
+            <button class="edit arth" id="button-8">-</button>
+            <button class="edit" id="button-9">1</button>
+            <button class="edit " id="button-10">2</button>
+            <button class="edit " id="button-11">3</button>
+            <button class="edit arth" id="button-12">*</button>
+            <button class="edit " id="button-13">AC</button>
+            <button class="edit " id="button-14">0</button>
+            <button class="edit arth" id="button-15">=</button>
+            <button class="edit arth" id="button-16">/</button>
+         </div>
+    </div>
+    <script src="cal.js"></script>
+    
+</body>
+</html>
